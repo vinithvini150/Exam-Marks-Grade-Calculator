@@ -23,7 +23,7 @@ document.getElementById("btn").addEventListener("click", () => {
         else if (marks[i] >= 50) Fgrade = "C";
         else if (marks[i] >= 35) Fgrade = "D";
         else if (marks[i] >= 34) Fgrade = "Fail";
-        else Fgrade = "-";
+        else Fgrade = "Fail";
 
         document.getElementById(`grade-${i + 1}`).textContent = Fgrade;
     }
